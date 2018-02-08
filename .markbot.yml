@@ -1,0 +1,51 @@
+repo: 'trendy-fruit'
+canvasCourse: 'web-dev-2'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - google-fonts
+  - screenshots-all
+  - responsive-css
+  - border-box
+  - body-margin-0
+  - css-order-type-main
+  - typografier
+
+html:
+  - path: 'index.html'
+    outline: false
+    has:
+      - 'main'
+      - 'main > article'
+      - 'article h2'
+      - 'article p'
+    search:
+      - 'Watermelon'
+      - 'Watermelons are a sweet, popular fruit of summer'
+      - 'Starfruit'
+      - 'The fruit has distinctive ridges running down its sides'
+      - 'Persimmon'
+      - 'The non-astringent persimmon is squat like a tomato'
+
+css:
+  - path: 'css/main.css'
+    search:
+      - 'background-color'
+      - 'font-family'
+      - '#e97065'
+      - '#fbd25e'
+      - '#e86033'
+      - 'Open Sans'
+      - 'Comfortaa'
+      - 'Rammetto One'
+      - 'Gravitas One'
+    searchNot:
+      - 'padding'
+      - 'font-weight'
+      - 'font-size'
+      - 'font-style'
+      - 'height'
+      - 'max-width'
