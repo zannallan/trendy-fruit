@@ -23,7 +23,6 @@ body {
 
 .watermelon {
   background-color: #e97065;
-  margin: 0;
 }
 
 .watermelon h2 {
@@ -43,5 +42,5 @@ body {
 }
 
 .persimmon h2 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: Comfortaa, sans-serif;
 }
